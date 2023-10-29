@@ -8,18 +8,18 @@ namespace Polymorphism
 {
     public class Rektangel : Geometri
     {
-        public int rectangleBase { get; set; }
-        public int rectangleHeight { get; set; }
+        public int RectangleBase { get; set; }
+        public int RectangleHeight { get; set; }
 
         public Rektangel()
         {
-            rectangleBase = 4;
-            rectangleHeight = 3;
+            RectangleBase = 4;
+            RectangleHeight = 3;
         }
 
         public override double Area()
         {
-            return rectangleBase * rectangleHeight;
+            return RectangleBase * RectangleHeight;
         }
     }
 }

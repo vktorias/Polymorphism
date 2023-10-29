@@ -8,15 +8,15 @@ namespace Polymorphism
 {
     public class Fyrkant : Geometri
     {
-        public int squareSide { get; set; }
+        public int SquareSide { get; set; }
 
         public Fyrkant()
         {
-            squareSide = 10;
+            SquareSide = 10;
         }
         public override double Area()
         {
-            return squareSide * squareSide;
+            return SquareSide * SquareSide;
         }
     }
 }

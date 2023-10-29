@@ -8,19 +8,17 @@ namespace Polymorphism
 {
     public class Ellips : Geometri
     {
-        public double majorAxis { get; set; } 
-        public double minorAxis { get; set; }
-        public double pi { get; set; }
+        public double MajorAxis { get; set; } 
+        public double MinorAxis { get; set; }
         public Ellips()
         {
-            majorAxis = 7.5;
-            minorAxis = 4;
-            pi = 3.14;
+            MajorAxis = 8.5;
+            MinorAxis = 4.5;
         }
 
         public override double Area()
         {
-            return majorAxis * minorAxis * pi;
+            return MajorAxis * MinorAxis * Pi;
         }
     }
 }

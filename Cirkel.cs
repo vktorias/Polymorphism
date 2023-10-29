@@ -10,13 +10,11 @@ namespace Polymorphism
     {
         //Egenskaper för cirkeln
         public double Radius { get; set; } 
-        public double Pi { get; set; }
 
         //Konstruktor där jag tilldelar cirkelns egenskaper ett fast värde
         public Cirkel()
         {
-            Radius = 5;
-            Pi = 3.14;
+            Radius = 6.5;
         }
 
         //Metod som är overridad från Geometriklassen (basklassen)

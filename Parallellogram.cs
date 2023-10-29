@@ -8,18 +8,18 @@ namespace Polymorphism
 {
     public class Parallellogram : Geometri
     {
-        public int parallelogramBase { get; set; }
-        public int parallelogramHeight { get; set; }
+        public int ParallelogramBase { get; set; }
+        public int ParallelogramHeight { get; set; }
 
         public Parallellogram()
         {
-            parallelogramBase = 5;
-            parallelogramHeight = 4;
+            ParallelogramBase = 5;
+            ParallelogramHeight = 4;
         }
 
         public override double Area()
         {
-            return parallelogramBase * parallelogramHeight;
+            return ParallelogramBase * ParallelogramHeight;
         }
     }
 
